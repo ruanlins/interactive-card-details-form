@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="card-side">
+        <div class="card-container">
+          <div class="card-front">
+            <img src="./images/card-logo.svg" alt="Card logo">
+            <div class="card-front-info">
+              <img src="./images/bg-card-front.png" alt="Card frontside">
+              <span id="number">0000 0000 0000 0000</span>
+              <div class="card-info">
+                <span id="name">Jane Applessed</span>
+                <div>
+                  <span id="month">00</span>/<span id="year">00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-back">
+            <img src="./images/bg-card-back.png" alt="Card backside">
+            <span id="cvc">000</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-side">
+        <form id="form">
+          <div class="form-name">
+            <label for="name">CardHolder Name</label>
+            <input type=" text" id="card-name" name="name" placeholder="e. g. Ruan Lins">
+            <span>Can't be blank</span>
+          </div>
+          <div class="form-number">
+            <label for="number">Card Number</label>
+            <input id="card-number" name="number" placeholder=".... .... .... ...." data-slots="." data-accept="\d"
+              size="19">
+            <span>Can't be blank</span>
+          </div>
+          <div class="card-information">
+            <div class="exp-date">
+              <label for="">Exp. Date</label>
+              <div class="two-inputs">
+                <input type="number" placeholder="MM" minlength="1" maxlength="2" id="card-month">
+                <input type="number" placeholder="YY" minlength="2" maxlength="2" id="card-year">
+              </div>
+              <span>Can't be blank</span>
+            </div>
+            <div class="cvc">
+              <label for="cvc">CVC</label>
+              <input type="number" id="card-cvc" placeholder="e.g. 123" minlength="3" maxlength="3">
+              <span>Can't be blank</span>
+            </div>
+          </div>
+          <button id="btn" type="submit">Confirm</button>
+        </form>
+        <div class="form-complete hidden">
+          <div class="complete-container">
+            <img src="./images/icon-complete.svg" alt="">
+            <h1>Thank you!</h1>
+            <p>we've added your card details</p>
+            <button>Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
