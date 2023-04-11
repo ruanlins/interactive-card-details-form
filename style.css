@@ -328,4 +328,18 @@ input.error {
     .card-back img {
         width: 280px;
     }
+
+    #number {
+        font-size: 1.1rem;
+    }
+
+    #name {
+        margin-top: 5px;
+    }
+
+    #name,
+    #month,
+    #year {
+        font-size: .6rem;
+    }
 }
