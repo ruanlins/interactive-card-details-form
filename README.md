@@ -25,8 +25,11 @@ Your users should be able to:
 
 ### Project Screenshot
 
+Desktop preview
 ![Desktop screenshot](./design/desktop-preview.png)
+Table preview
 ![Tablet screenshot](./design/tablet-preview.png)
+Mobile Preview
 ![Mobile screenshot](./design/mobile-preview.png)
 
 ### Built with
