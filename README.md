@@ -23,19 +23,24 @@ Your users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover, active, and focus states for interactive elements on the page
 
-### Project Screenshot
+### Project Screenshots
 
-Desktop preview
-
-![Desktop screenshot](./design/desktop-preview.png)
-
-Table preview
-
-![Tablet screenshot](./design/tablet-preview.png)
-
-Mobile Preview
-
-![Mobile screenshot](./design/mobile-preview.png)
+<table>
+        <tr>
+		    <td>
+                <img src="./design/mobile-preview.png"
+                    alt="Mobile solution" width="100%" title="Mobile solution"  />
+            </td>
+			            <td>
+                <img src="/design/tablet-preview.png"
+                    alt="Tablet solution" width="100%" title="Tablet solution"/>
+            </td>
+            <td>
+                <img src="./design/desktop-preview.png"
+                    alt="Desktop solution" width="100%" title="Desktop solution"/>
+            </td>
+        </tr>
+</table>
 
 ### Built with
 
